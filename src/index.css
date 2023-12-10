@@ -1,15 +1,31 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
 }
 
 a {
   text-decoration: none !important;
 }
 
-form {
-  max-width: 400px;
-  margin: 20px auto;
+button,
+select {
+  padding: 5px 10px;
+  min-width: 50px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+label {
+  width: 200px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .search-bar {
@@ -18,4 +34,37 @@ form {
 
 .btn-round {
   margin: 20px;
+}
+
+.beer-imgs {
+  display: flex;
+}
+
+.beer-description {
+  display: flex;
+}
+
+.beer-description span {
+  color: gray;
+  margin-left: 210px;
+}
+.beer-tag {
+  color: gray;
+  display: flex;
+}
+
+.beer-tag span {
+  color: black;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.beer-text {
+  max-width: 700px;
+  text-align: justify;
+}
+
+.contributed-by {
+  color: gray;
+  font-size: 0.9em;
 }
